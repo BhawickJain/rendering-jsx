@@ -1,8 +1,4 @@
 import ReactDOM from "react-dom";
-import PageHeader from "./components/PageHeader";
-import PageFooter from "./components/PageFooter";
-import MainContent from "./components/MainContent";
+import App from "./App";
 
-ReactDOM.render(<PageHeader />, document.getElementById("page-header"));
-ReactDOM.render(<MainContent />, document.getElementById("main-content"));
-ReactDOM.render(<PageFooter />, document.getElementById("page-footer"));
+ReactDOM.render(<App />, document.getElementById("app"));
