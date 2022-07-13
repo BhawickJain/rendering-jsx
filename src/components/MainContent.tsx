@@ -9,6 +9,9 @@ function MainContent(): JSX.Element {
   const numOne = 3;
   const numTwo = 6;
 
+  const noun = "woodchuck";
+  const verb = "chuck wood";
+
   const threeFavouriteFoods = ["Chocolate", "Noodles", "Pizza"];
 
   return (
@@ -23,12 +26,11 @@ function MainContent(): JSX.Element {
       <section>
         <h2>Musing of the month ({location.city}, March 2003)</h2>
         <p>
-          Q: How much wood could a woodchuck chuck if a woodchuck could chuck
-          wood?
+          Q: How much wood could a {noun} chuck if a {noun} could {verb}?
         </p>
         <p>
-          A: A woodchuck would chuck all the wood they could chuck if a
-          woodchuck would chuck wood.
+          A: A {noun} would chuck all the wood they could chuck if a{noun} would{" "}
+          {verb} wood.
         </p>
       </section>
       <section>
